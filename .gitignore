@@ -1,0 +1,30 @@
+# Python bytecode and local package metadata
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Local virtual environments and build artifacts
+.venv/
+venv/
+build/
+dist/
+
+# Downloaded models and Hugging Face caches
+/.cache/
+/lingbot-vla/
+
+# Training data, checkpoints, outputs, and logs
+/data/
+/assets/training_data/
+/checkpoints/
+/output/
+/outputs/
+/runs/
+/logs/
+*.log
+/log.txt
+
+# Local tooling and test caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
